@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fi.dy.masa.malilib",
+    "module": "malilib-forge-1.19.2",
+    "version": "0.13.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "malilib-forge-1.19.2-0.13.0.jar",
+          "url": "malilib-forge-1.19.2-0.13.0.jar",
+          "size": 467969,
+          "sha512": "0b196c644f579427e87c0a052a7d3381fa0fe0d9e19883214dbf9639c2a4d16f5a20c92448244f477e56bd282d7534005ed417a78ca00d028f135d89180894df",
+          "sha256": "2e26cbfae78b6698535425421b429f4459e9e2d468d38eb2763cbe6fbcdd2706",
+          "sha1": "d3fba72c72b72b237fe74e31d76be7933dcaf23d",
+          "md5": "e26d83895679af2fc1609b21ecc3500a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "malilib-forge-1.19.2-0.13.0.jar",
+          "url": "malilib-forge-1.19.2-0.13.0.jar",
+          "size": 467969,
+          "sha512": "0b196c644f579427e87c0a052a7d3381fa0fe0d9e19883214dbf9639c2a4d16f5a20c92448244f477e56bd282d7534005ed417a78ca00d028f135d89180894df",
+          "sha256": "2e26cbfae78b6698535425421b429f4459e9e2d468d38eb2763cbe6fbcdd2706",
+          "sha1": "d3fba72c72b72b237fe74e31d76be7933dcaf23d",
+          "md5": "e26d83895679af2fc1609b21ecc3500a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "malilib-forge-1.19.2-0.13.0-sources.jar",
+          "url": "malilib-forge-1.19.2-0.13.0-sources.jar",
+          "size": 268020,
+          "sha512": "6b0ed55da4630238905d216cb3eed0d137ad0f86f3bbcff95c1fd4aa17acbf2345b2907671f854cc9d36f1e5cbe32c7d869d43f3c528f3dd9b4f5564532f95ae",
+          "sha256": "9d561ec9ae4fe89bee62c109de0220e8b123125d76ee90c54bd97ef84dfe0fb1",
+          "sha1": "a9ae6a2b0cbbdf77ba9311e80b2512b263b846d3",
+          "md5": "f3e4dc5a65ba82f689e5d71812f4e9fa"
+        }
+      ]
+    }
+  ]
+}
